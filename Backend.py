@@ -93,3 +93,4 @@ class HandGesturesDetector:
             if cv2.waitKey(1) == ord('q') or self.stopFlag == True:
                 cv2.destroyAllWindows()
                 break
+
